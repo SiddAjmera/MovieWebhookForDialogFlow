@@ -1,0 +1,21 @@
+{
+  "name": "movie_webhook_for_dialog_flow",
+  "version": "1.0.0",
+  "description": "A webhook to practice DialogFlow's V2 API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siddharth Ajmera (SiddAjmera)",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google": "2.0.0-alpha.2",
+    "dialogflow": "^0.1.0",
+    "dialogflow-fulfillment": "0.3.0-beta.3",
+    "request": "2.86.0",
+    "request-promise": "4.2.2",
+    "express": "4.16.3",
+    "body-parser": "1.18.3"
+  }
+}
